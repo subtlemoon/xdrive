@@ -26,8 +26,8 @@ void checkThreshold(int x_dir, int y_dir, int rotation){
     }
 
     else{ //This is where things might go wrong bc idk what im doing here
-        leftMotors.moveVoltage(0);
-        rightMotors.moveVoltage(0);
+        leftMotors.move_voltage(0);
+        rightMotors.move_voltage(0);
         leftMotors.set_brake_modes(E_MOTOR_BRAKE_HOLD);
         rightMotors.set_brake_modes(E_MOTOR_BRAKE_HOLD);
     }
